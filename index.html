@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+
+<title>Green Place Capital Partners</title>
+</head>
+<body>
+<div class="screen_view">
+    <div class="content_box">
+        <h1><span id="green">Green</span> Place <br> Capital Partners</h1>
+        <h2>A value based, globally opportunistic <br>investment partnership.</h2>
+    </div>
+</div>
+
+<div class="screen_view">
+    <div class="content_box">
+        <div id="blocks">
+            <div id="block_1" class="block"></div>
+            <div id="block_2" class="block"></div>
+            <div id="block_3" class="block"></div>
+        </div>
+
+        <h3>About</h3>
+
+        <p>
+            We view Green Place as a vehicle for compounding our personal capital, alongside our investors.  
+        </p>
+
+        <p>
+            The fund has no management fee, a high water mark, and charges a performance fee on profits that exceed a 6% compounding hurdle, 
+            modelled after the original Buffet partnerships.
+        </p>
+
+        <p>
+            JC van der Walt is the managing partner and portfolio manager.
+        </p>
+
+    </div>
+</div>
+
+<div class="screen_view">
+    <div class="content_box">
+        <div id="blocks">
+            <div id="block_1" class="block"></div>
+            <div id="block_2" class="block"></div>
+            <div id="block_3" class="block"></div>
+        </div>
+
+        <h3>Strategy</h3>
+
+        <p>
+            We own interests in a small number of businesses with attractive prospects, invested management, and sensible valuations.
+        </p>
+
+        <p>
+            We look for value, without constraints.
+        </p>
+
+    </div>
+</div>
+
+
+<div class="screen_view">
+    <div class="content_box">
+        <div id="blocks">
+            <div id="block_1" class="block"></div>
+            <div id="block_2" class="block"></div>
+            <div id="block_3" class="block"></div>
+        </div>
+
+        <h3>Contact</h3>
+
+        <div id="form_box">
+
+            <form 
+            action="https://script.google.com/macros/s/AKfycbwWBYTNtxUOk51ZhC8uUMNKz44NmdALuypiFg4p2HpJGVw2-10zC9R6EEkwvJwAF6VF/exec" 
+            method="POST" 
+            target="_self" 
+            class="gform"
+            >
+
+                <div class="data_entry_row">
+                    <span>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" class="text_input_short"> 
+                    </span>
+                    <span>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" class="text_input_short" required><br><br>
+                    </span>
+                    
+                    
+                </div>
+                
+                <label for="accredited_investor">Accredited investor:</label>
+                <input type="radio" name="accredited_investor" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="accredited_investor" id="no" value="no">
+                <label for="no">No</label> <br><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" class="text_input_long" required></textarea><br><br>
+                
+                <div class="data_entry_row">
+                    <input type="submit" value="Send" id="submit">
+                </div>
+
+                <!-- <input type="hidden" name="_next" value="https://jcvdwlt.github.io/GreenPlace/"> -->
+                <!-- <input name="_formsubmit_id" type="text" style="display:none"> -->
+
+                <div style="display:none" class="thankyou_message">
+                    <p>
+                        Thank you for your interest, <br> you're message has been sent.
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+
+        <p id="footer">
+            Based in Oxford, UK.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
+</body>
+</html>
